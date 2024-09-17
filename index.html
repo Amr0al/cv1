@@ -7,48 +7,49 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>اسمك الكامل</h1>
-        <p>مسمى وظيفي</p>
-    </header>
-    
-    <section id="contact">
-        <h2>معلومات الاتصال</h2>
-        <p>البريد الإلكتروني: example@example.com</p>
-        <p>رقم الهاتف: +1234567890</p>
-        <p>العنوان: عنوانك</p>
-    </section>
-    
-    <section id="experience">
-        <h2>الخبرات العملية</h2>
-        <div class="job">
-            <h3>المسمى الوظيفي - الشركة</h3>
-            <p>تاريخ البدء - تاريخ الانتهاء</p>
-            <p>وصف المسؤوليات والإنجازات.</p>
-        </div>
-        <!-- أضف المزيد من الخبرات العملية هنا -->
-    </section>
-    
-    <section id="education">
-        <h2>التعليم</h2>
-        <div class="degree">
-            <h3>الدرجة العلمية - المؤسسة التعليمية</h3>
-            <p>تاريخ البدء - تاريخ الانتهاء</p>
-        </div>
-        <!-- أضف المزيد من التعليم هنا -->
-    </section>
-    
-    <section id="skills">
-        <h2>المهارات</h2>
-        <ul>
-            <li>مهارة 1</li>
-            <li>مهارة 2</li>
-            <!-- أضف المزيد من المهارات هنا -->
-        </ul>
-    </section>
-    
-    <footer>
-        <p>© 2024 اسمك الكامل</p>
-    </footer>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="profile.jpg" alt="صورة شخصية">
+                <h2>اسمك الكامل</h2>
+                <p>مسمى وظيفي</p>
+            </div>
+            <div class="contact-info">
+                <h3>معلومات الاتصال</h3>
+                <p>البريد الإلكتروني: example@example.com</p>
+                <p>رقم الهاتف: +1234567890</p>
+                <p>العنوان: عنوانك</p>
+            </div>
+            <div class="skills">
+                <h3>المهارات</h3>
+                <ul>
+                    <li>مهارة 1</li>
+                    <li>مهارة 2</li>
+                    <!-- أضف المزيد من المهارات -->
+                </ul>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <section class="experience">
+                <h2>الخبرات العملية</h2>
+                <div class="job">
+                    <h3>المسمى الوظيفي - الشركة</h3>
+                    <p>تاريخ البدء - تاريخ الانتهاء</p>
+                    <p>وصف المسؤوليات والإنجازات.</p>
+                </div>
+                <!-- أضف المزيد من الخبرات -->
+            </section>
+            
+            <section class="education">
+                <h2>التعليم</h2>
+                <div class="degree">
+                    <h3>الدرجة العلمية - المؤسسة التعليمية</h3>
+                    <p>تاريخ البدء - تاريخ الانتهاء</p>
+                </div>
+                <!-- أضف المزيد من التعليم -->
+            </section>
+        </main>
+    </div>
 </body>
 </html>
